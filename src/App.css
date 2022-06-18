@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500;520&family=Montserrat:wght@600&family=Mulish&family=Open+Sans&display=swap');
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+justify-content: center;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.baloo{
+    font-family:  Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+/* 
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Mulish', sans-serif;
+
+    font-family: 'Open Sans', sans-serif; */
+    font-size: medium;
+    font-weight:700 ;
+}
+
+.mx-set{
+    margin:50px;
+}
+
+.space-around{
+    justify-content: space-between;
+}
+
+.border{
+    border: 2px solid black;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.borderst{
+    border: solid 2px black;
+    border-radius: 12px;
+}
+
+.mx-2{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.my-2{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.d-block{
+    display: block;
+}
+
+.m-auto{
+    margin:auto;
+}
+.p-auto{
+    padding:auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.flex {
+    display: flex;
+    list-style-type: none;
+}
+
+.imgLogoDiv {
+    display: inline;
+}
+
+.imgLogo {
+    width: 50px;
+    padding-top: 6px;
+    padding-left:8.8px;
+}
+
+.container {
+    padding: 0 3vw;
+    margin: auto;
+}
+
+ul li {
+    margin: 0px 1.4vw;
+text-decoration: none;
+font-size: 14px;
+color: #282c3f;
+border-bottom: none;
+  border-bottom-color: currentcolor;
+-webkit-transition: left .2s ease-out,width .2s ease-out;
+transition: left .2s ease-out,width .2s ease-out;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+input {
+    padding-left: 12px;
+    font-size: 18px;
+    width: 24vw;
+    height: 6vh;
+    display: inline-block;
+float: left;
+font-size: 14px;
+height: 20px;
+line-height: 24px;
+width: 95%;
+color: #696e79;
+-webkit-box-sizing: content-box;
+box-sizing: content-box;
+padding: 8px 10px 10px;
+margin: 0;
+outline: 0;
+border: 1px solid #f5f5f6;
+border-radius: 0 4px 4px 0;
+border-left: 0;
+background: #f5f5f6;
+}
+
+.logotext {
+    display: none;
+}
+
+.containersec {
+    padding: 0 1vw;
+    background: whitesmoke;
+    height: fit-content;
+    max-height: 60vh;
+    display: flex;
+    width: 98%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.collapse-btn {
+    display: none;
+}
+.search1 {
+    display: none;
+}
+.headerpane {
+    display: none;
+    position: fixed;
+    height: 100%;
+    top: 0;
+}
+header {
+    display: block;
+    background: white;
+    position:sticky;
+    top: 0;
+    box-shadow: rgba(255, 0, 242, 0.301) 0px 2px 4px 0px, rgba(171, 47, 175, 0.32) 0px 2px 16px 0px;
+    z-index: 10;
+}
+
+.products {
+    width: 97vw;
+    min-height: 0px;
+    height: 370px;
+}
+
+.btncontainer {
+    width: fit-content;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    height: fit-content;
+}
+/* .containersec::-webkit-scrollbar {
+    display: none;
+}
+
+.containersec {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.items::-webkit-scrollbar {
+    display: none;
+} */
+.items {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+button {
+    border: none;
+    border-radius: 120px;
+    width: 50px;
+    height: 50px;
+}
+
+/* .item{
+    display: inline;
+} */
+.items{
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    overflow-y:hidden;
+    display: flex;
+    /* justify-content: space-around; */
+    /* width: 100%; */
+    /* height: 50vh; */
+}
+
+/* .divx{
+    width: 20px;
+    padding:0 7vw;
+} */
+
+.rowitem{
+    width: 19.6vw;
+}
+
+
+.heading{
+    width: 100%;
+}
+
+.row{
+    display: table-row;
+}
+
+.ceteitem{
+    width: 16vw;
+}
+.itemscontainer{
+    width: 100%;
+    text-align: center;
+}
+.smallitem{
+    width: 12vw;
+}
+.brandscontainer{
+    /* width:99%; */ width: 100%;
+    text-align: center;
+}
+.brandimg{
+    width: 10vw;
+}
+.bigimg{
+    width: 19vw;
+}
+.threeBYtwo{
+    width: 46vw;
+}
+.budgetbuy{
+    width: 15vw;
+}
+.h1{
+    font-family: poppins;
+    margin: 5vw;
+    font-size: 5vw;
+}
+.banner{
+    width : 100vw;
+}
+.Living{
+    width:45vw;
+}
+.getinspired{
+    width: 100%;
+}
+.inspiredimgs{
+    width:30vw;
+}
+@media screen and (max-width: 1100px) {
+ 
+    .rowitem{
+        width: 19.2vw;
+    }
+    .container {
+        padding: 0 0;
+        max-width: 90vw;
+        margin: auto;
+    }
+    .imgLogoDiv {
+        display: flex;
+        align-items: center;
+    }
+    .logotext {
+        display: block;
+        font-size: 25px;
+        margin-left: 12px;
+    }
+    /* .flex {
+        display: inline;
+    } */
+    .d-inline{
+        display: inline;
+    }
+    header {
+        width: fit-content;
+        position: fixed;
+        background: white;
+        height: 100%;
+    }
+    main {
+        display: flex;
+    }
+
+    .headerpane {
+        background: white;
+        height: fit-content;
+        width: 100%;
+    }
+    .search2 {
+        display: none;
+    }
+    .search1 {
+        display: inline-block;
+        margin: 5px 0px 0px -38px;
+    }
+    .collapse-btn {
+        /* position: fixed; */
+        display: inline;
+        margin: 12px 3px 0px 5px;
+        width: 28px;
+        height: 30px;
+        z-index: 1;
+    }
+    .clauser{
+        display: flex;
+    }
+    .products{
+        min-height: 170px;
+        height: 32vw;
+    }
+    .containersec{
+        height: fit-content;
+    }
+    .btncontainer {
+        width: fit-content;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 88vw;
+        height: fit-content;
+    }
+    .divx{ 
+         width: 100%;
+        /* padding: 0 8vw; */
+        margin-top:60px;
+    }
+
+    .imgitem{
+        height: 22vh;
+        margin:0px 0px;
+    }
+    .headerpane{    box-shadow: rgba(255, 0, 242, 0.301) 0px 2px 4px 0px, rgba(171, 47, 175, 0.32) 0px 2px 16px 0px;
+        display: block;
+      display: block;
+      z-index:2;
+    }
+    .header{
+        display: none;
+    }
+   
+    .displaynone{
+        display: none;
+    }
+    .btncontainer {
+        width: 99%;
+    }
+    input{
+        width: 23vh;
+    }
+}
+
+/* @media screen and (max-width:600px) {
+    .btncontainer{
+        display: none;
+    }     
+}*/
+
+.display{
+    display: block;
+}
+li{
+    color: black;
+    text-decoration:none;
+    cursor:pointer;
+}
