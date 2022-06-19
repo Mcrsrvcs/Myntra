@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import {Link} from "react-router-dom";
+import search from '../search.png'
+import menu from '../menu.png'
+import profile from '../profile.JPG'
+import bag from '../bag.png'
+import whislist from '../whislist.png'
 
 function Header(props) {
   let {logo} = props;
@@ -19,13 +24,13 @@ function Header(props) {
                   className="collapse-btn"
                   onClick={() => setDisplayH("displaynone")}
                 >
-                  E
+                  <img src={menu} className="menuimg" alt=""/>
                 </button>
               </div>
               <ul className="flex d-inline">
                 <li className="search1">
-                  <input className="borderst" type="text" name="" id="" />
-                </li>
+                  <input className="search1input" type="text" name="" id="" placeholder="Search Products..." />
+                </li><li class="mx-0 searchstimgli"><img src={search} alt="" className="searchst mx-0 " /></li>
                 <Link style={{textDecoration: 'none'}} to="/Men"><li>Men</li></Link>
                 <Link style={{textDecoration: 'none'}} to="/Women"><li>Women</li></Link>
                 <Link style={{textDecoration: 'none'}} to="/Kids"><li>Kids</li></Link>
@@ -37,11 +42,10 @@ function Header(props) {
             <div className="right ">
               <ul className="flex d-inline items-center">
                 <li className="search2">
-                  <input className="my-2" type="text" name="" id="" />
-                </li>
-                <li>profile</li>
-                <li>whislist</li>
-                <li>Bag</li>
+                  <input className="my-2 mx-0 " type="text" name="" id="" placeholder="Search Products, Brands..."/></li><li class="mx-0 "><img src={search} alt="" className="searchimg" /></li>
+                <li><img src={profile} alt="profile" className="icons "/><span class="iconstext">Profile</span></li>
+                <li><img src={whislist} alt="" className="icons "/><span class="iconstext">Whishlist</span></li>
+                <li><img src={bag} alt="" className="bag icons "/><span class="iconstext bagtext">Bag</span></li>
               </ul>
             </div>
           </nav>
@@ -49,12 +53,12 @@ function Header(props) {
         <section id="headerpane" className="headerpane displayheaderpane">
           <nav className="nav flex uppercase baloo space-around items-center">
             <div className="left flex justify-center ">
-              <div className="imgLogoDiv">
+              <div className="imgLogoDiv menuicondiv">
                 <button
-                  className="collapse-btn"
+                  className="collapse-btn btnx "
                   onClick={() => setDisplayH("display")}
                 >
-                  E
+                <img src={menu} className="menuimg" alt=""/>
                 </button>
               </div>
               <ul className="flex ">

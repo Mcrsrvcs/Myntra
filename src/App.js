@@ -4,6 +4,7 @@ import Navbar from './components/Header'
 import Main from './components/Main'
 import KidsCloth from './components/KidsCloth';
 import Living from './components/Living'
+import Footer from './components/Footer'
 import Home from './components/Home'
 import LoadingBar from 'react-top-loading-bar'
 import {
@@ -32,15 +33,16 @@ const setProgressfunction=(progress)=>{
       />
      <Navbar logo={logo}/>  
      <Switch>
+                <Route exact path="/"><Home setProgress={setProgressfunction}/></Route>
                 <Route exact path="/Men"><Main setProgress={setProgressfunction} Who="Men" key="Men" /></Route>
                 <Route exact path="/Women"><Main setProgress={setProgressfunction} Who="Women"  key="Women" /></Route>
                  <Route exact path="/Kids"><KidsCloth setProgress={setProgressfunction}/></Route>
                 <Route exact path="/Living"><Living setProgress={setProgressfunction}/></Route>
-                <Route exact path="/"><Home setProgress={setProgressfunction}/></Route>
-                {/*<Route exact path="/technology"><News  items={items} country={country} category="technology" key="/technology" /></Route>
+                {/* <Route exact path="/technology"><News  items={items} country={country} category="technology" key="/technology" /></Route>
                 <Route exact path="/business"><News  items={items} country={country} category="business" key="/business" /></Route> */}
 
       </Switch>
+      <Footer/>
      </Router>
      </>
     )
