@@ -6,7 +6,7 @@ import returnimg from '../return.png'
 
 function Footer() {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex bg-gray items-center justify-center">
         <div className="flex-row">
         <ul>
             <h4>Online Shoping</h4>

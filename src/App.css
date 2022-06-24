@@ -200,7 +200,7 @@ header {
     width: 98%;
     height: fit-content;
 }
-/* .containersec::-webkit-scrollbar {
+.containersec::-webkit-scrollbar {
     display: none;
 }
 
@@ -210,7 +210,7 @@ header {
 }
 .items::-webkit-scrollbar {
     display: none;
-} */
+}
 .items {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -536,4 +536,8 @@ ul{
 
 .ftct{
     width: fit-content;
+}
+
+.bg-gray{
+    background :rgba(117, 143, 160, 0.32);
 }
